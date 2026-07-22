@@ -10,7 +10,7 @@ Example for [PRODUCT]
 (summary: `[PRODUCT] Create APIs`):
 
 - Branch: `feature/RMS-85-create-apis`
-- Commit: `RMS-85 [BAF] Create APIs`
+- Commit: `RMS-85 [PRODUCT] Create APIs`
 
 ## Install (unpacked, dev mode)
 
