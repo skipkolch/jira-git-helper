@@ -1,0 +1,100 @@
+#jgh-panel {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 2147483647;
+  background: #1b1f24;
+  color: #f4f5f7;
+  border-radius: 8px;
+  padding: 8px 12px 10px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.35);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 12px;
+  min-width: 200px;
+}
+
+#jgh-panel.jgh-dragging {
+  opacity: 0.85;
+  user-select: none;
+}
+
+#jgh-panel .jgh-header {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: move;
+}
+
+#jgh-panel.jgh-collapsed {
+  padding-bottom: 8px;
+}
+
+#jgh-panel .jgh-drag-handle {
+  opacity: 0.5;
+  line-height: 1;
+}
+
+#jgh-panel .jgh-key {
+  font-weight: 600;
+  opacity: 0.8;
+  flex: 1;
+}
+
+#jgh-panel .jgh-toggle {
+  border: none;
+  background: transparent;
+  color: inherit;
+  opacity: 0.6;
+  cursor: pointer;
+  font-size: 13px;
+  line-height: 1;
+  padding: 2px 4px;
+}
+
+#jgh-panel .jgh-toggle:hover {
+  opacity: 1;
+}
+
+#jgh-panel .jgh-body {
+  margin-top: 6px;
+}
+
+#jgh-panel.jgh-collapsed .jgh-body {
+  display: none;
+}
+
+#jgh-panel .jgh-row {
+  margin-top: 4px;
+}
+
+#jgh-panel .jgh-status {
+  opacity: 0.75;
+}
+
+#jgh-panel .jgh-error {
+  color: #ff8a8a;
+}
+
+#jgh-panel .jgh-btn {
+  width: 100%;
+  padding: 6px 10px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 6px;
+  background: #2c333a;
+  color: inherit;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+#jgh-panel .jgh-btn:hover {
+  background: #394049;
+}
+
+#jgh-panel .jgh-btn.jgh-copied {
+  background: #1f7a4d;
+  border-color: #1f7a4d;
+}
+
+#jgh-panel .jgh-retry {
+  margin-top: 6px;
+}

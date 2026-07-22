@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Jira Git Helper",
+  "version": "1.0.0",
+  "description": "Adds Copy Branch Name / Copy Commit Message buttons to Jira issue pages.",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://serenitycloud.atlassian.net/browse/*"],
+      "js": ["content.js"],
+      "css": ["panel.css"],
+      "run_at": "document_idle"
+    }
+  ]
+}
