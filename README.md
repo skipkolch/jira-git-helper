@@ -31,7 +31,7 @@ inside Jira's single-page app (no full reload).
 ## Notes
 
 - Scoped to `serenitycloud.atlassian.net` only.
-- If the summary starts with a `[TAG]` (e.g. `[BAF]`), it's kept as-is in the
+- If the summary starts with a `[TAG]`, it's kept as-is in the
   commit message but stripped from the branch slug.
 - Branch names are capped at 72 characters; long summaries are truncated at a
   word boundary so the branch name stays usable in git/CI.
