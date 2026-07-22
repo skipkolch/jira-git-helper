@@ -1,23 +1,23 @@
 # Jira Git Helper
 
 Chrome extension that adds a small floating panel to Jira issue pages
-(`https://serenitycloud.atlassian.net/browse/*`) with two buttons:
+(`https://cloud.atlassian.net/browse/*`) with two buttons:
 
 - **Copy branch name** — `feature/{KEY}-{summary-slug}`
 - **Copy commit message** — `{KEY} {summary}`
 
-Example for [SLS-85](https://serenitycloud.atlassian.net/browse/SLS-85)
-(summary: `[BAF] Create BAF APIs for Customer Care`):
+Example for [PRODUCT]
+(summary: `[PRODUCT] Create APIs`):
 
-- Branch: `feature/SLS-85-create-baf-apis-for-customer-care`
-- Commit: `SLS-85 [BAF] Create BAF APIs for Customer Care`
+- Branch: `feature/RMS-85-create-apis`
+- Commit: `RMS-85 [BAF] Create APIs`
 
 ## Install (unpacked, dev mode)
 
 1. Open `chrome://extensions`.
 2. Enable **Developer mode** (top right).
 3. Click **Load unpacked** and select this folder.
-4. Open any issue on `serenitycloud.atlassian.net` — the panel appears in the
+4. Open any issue on `cloud.atlassian.net` — the panel appears in the
    bottom-right corner.
 
 ## How it works
